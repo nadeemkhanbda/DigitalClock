@@ -46,7 +46,7 @@ body{
     border: 3px solid black;
     box-shadow: 0px 0px 150px purple;
 }
-@media screen and (max-width:370px) {
+@media screen and (max-width:400px) {
     body{
     min-height: 100vh;
     width: 100%;
@@ -56,10 +56,12 @@ body{
     align-items: center;
     background:linear-gradient(60deg, rgba(200, 47, 116, 0.5), rgb(10, 159, 189), rgba(124, 13, 130, 0.5));
     color: white;
+    text-aign: center;
 }
     #clock-box{
     display: flex;
-    width: 80%
+    width: 70%;
+    margin: 20px
     padding: 20px;
     background:linear-gradient(60deg, rgba(200, 95, 47, 0.5), rgb(10, 159, 189), rgba(124, 13, 130, 0.5));
     color: black;
